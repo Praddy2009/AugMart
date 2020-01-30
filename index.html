@@ -23,15 +23,23 @@
 <!--<script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>-->
 
 <script type="text/javascript">
+  function change(){
+
+  var image =document.getElementById('mod');
+    image.src ="third_party/barrel/BARREL.gltf"
+  }
+</script>
+
+
     <link rel="stylesheet" href="demo-styles.css">
   </head> 
 <body>
- 
-  <model-viewer src="Jenga/Untitled.glb" background-color="#70BCD1"
-  ar
-              auto-rotate camera-controls
-              background-color="#70BCD1"
-              shadow-intensity="1"
+ <button onclick="change();">Clickme !</button>
+  <model-viewer src="Jenga/Untitled.gltf" background-color="#70BCD1"
+  camera-controls
+  
+  stage-light-intensity="3" environment-intensity="2"
+  auto-rotate 
   alt="A 3D model of an astronaut" id="mod" >
   
 </model-viewer>
