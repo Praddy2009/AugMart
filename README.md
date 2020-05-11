@@ -13,5 +13,4 @@ Visit the link from you smartphone browsers: https://bit.ly/AugMart
 # TechStack
 
 1) HTML5, CSS3, Bootstrap, Javascript
-<br>
 2) Model Viewer : https://github.com/google/model-viewer
