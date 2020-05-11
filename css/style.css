@@ -127,3 +127,9 @@ canvas{
   opacity: 1;
   right: 0;
 }
+
+.siz{
+  font-size: 30px;
+  padding: 1px;
+  color: white;
+}

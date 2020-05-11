@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <title>Jenga</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,height=device-height">
+
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+
+<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+
+<script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
+
+    <link rel="stylesheet" href="demo-styles.css">
+    <style>
+      model-viewer#reveal {
+        --poster-color: transparent;
+      }
+    </style>
+  </head> 
+<body>
+  <div class="demo" style="background: linear-gradient(#000000, #ffffff);">
+  <model-viewer 
+  id="reveal" loading="eager" camera-controls auto-rotate poster="Images\TV.png" 
+  src="Models/TV.glb" 
+  alt="Jenga! Let's Play"
+              ar
+              autoplay
+              auto-rotate camera-controls
+              shadow-intensity="1"
+              alt="Jenga! Let's Play">
+</model-viewer> 
+</div>
+  <script type="module"
+
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+<script nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+</body>
+</html>
+
+
+
+
