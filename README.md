@@ -1,18 +1,17 @@
-# `<model-viewer>` codelab
+# AugMart
 
-This is the starting template for a codelab giving a brief introduction to
-enhancing web pages with 3D content. Give it a try!
+An E-commerce web platform with the feature of AR for better user experience.
+Contains the 3d models of products which the user can augment in it's surrounding.
 
-The codelab will take you through a few steps to take a basic HTML file
-(`index.html`) through adding a 3D model, and gradually adding more
-interactivity and changing how it looks.
+# How to use
 
-# 3D models
+Make sure your mobile support WebAR feature(ARCORE) in case of Android and (ARKIT) for IPhone users.
 
-We've included a few 3D models in the repo for you to try. Many more are
-available on sites like [Poly](https://poly.google.com) and
-[Sketchfab](https://sketchfab.com).
+Visit the link from you smartphone browsers: https://bit.ly/AugMart
 
-# Notes
 
-This is not an officially supported Google product.
+# TechStack
+
+1) HTML5, CSS3, Bootstrap, Javascript
+<br>
+2) Model Viewer : https://github.com/google/model-viewer
