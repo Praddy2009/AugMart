@@ -136,7 +136,7 @@ canvas{
 
 .jumbotron{
   margin-bottom: 0px;
-  background-image: url(..\images\seek.jpg);
+  background-image: url(../images/seek.jpg);
   height: 100%;
   color: white;
 }
