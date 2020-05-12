@@ -133,3 +133,23 @@ canvas{
   padding: 1px;
   color: white;
 }
+
+.jumbotron{
+  margin-bottom: 0px;
+  background-image: url(../images/seek.jpg);
+  height: 100%;
+  color: white;
+}
+
+.white{
+  color: white;
+  text-decoration: none;
+}
+
+.about{
+  color: white;
+}
+
+#align-middle{
+  padding-top: 50px;
+}
